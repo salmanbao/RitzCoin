@@ -1,0 +1,115 @@
+Brand Name = RitzSwap
+
+npx hardhat compile
+npx hardhat run scripts/deploy.js
+
+-----------------------------	spookyswap 	------------------------------
+ritzswap-info#PENDING#NODE:10(Depends on *ritzswap-subgraph *ritzswap-blocks-subgraph *ritzswap-info-api)
+ritzswap-info-api#DONE#NODE:12
+ritzswap-subgraph#DONE#NODE:10
+ritzswap-matic-sdk#DONE#NODE:10
+ritzswap-interface#DONE#NODE:10
+ritzswap-blocks-subgraph#DONE#NODE:10
+ritzswap-farms#WORKING#NODE:10
+ritzswap-contracts#DONE#NODE:10
+
+https://60bf2ce297295a0017c41fe9.mockapi.io/nightmare/tokens
+-----------------------	Sub-Graph Link	      -----------------------
+Subgraph endpoints:
+Queries (HTTP):     https://api.thegraph.com/subgraphs/name/salmanbao/ritzswap
+Subscriptions (WS): wss://api.thegraph.com/subgraphs/name/salmanbao/ritzswap
+
+Subgraph endpoints:
+Queries (HTTP):     https://api.thegraph.com/subgraphs/name/salmanbao/ritzswap-blocks
+Subscriptions (WS): wss://api.thegraph.com/subgraphs/name/salmanbao/ritzswap-blocks
+
+---------------------- Addresses -------------------------------
+Account Address         = 0x48F91fbC86679e14f481DD3C3381f0e07F93A711
+			 			= 0x65518Dc6F9c6ef29AfAd2B1BEC8F9174b5b629B6
+						
+-------------------  Exchange Contracts On Rinkeby   --------------------------
+Factory Address         = 0x7eD69c1B3df4B2996dB424A74DB3F40fbB79Bf4D #verified
+Router Address          = 0xB588dDb59a938e643345f30b14a5c775A00bcDb0 #verified
+Init Code Hash          = 0x5e659d37b3ec86f61d7037451869ae4568f30613ddd09a64743b709409a5617b
+
+
+			Tokens Contracts
+SpookySwap	         		= 
+RitzToken(Gov Token)		= 0xBe332f99E5ED51dFf5B8E4216106697Be5E15bcD #verified
+SyrupBar(Gov Token)	 		= 0x050b5E53d1449B711c6f48aAD213C3bf56C597D9 #verified
+WETH				    	= 0xA5e5926606628a664570EAf18ADBf718BdC4a8fB #verified
+USDT		 				= 0x5485aC0734561d0730F67Af16d5FBB725d911fD9 #verified
+BUSD			 			= 0x4CA56738f8DFb08276e0435776fAa375cE110B1c #verified
+USDC			 			= 0xF9F578c2896C424edeD2626B10f91B5545BA99c7 #verified
+DAI			 				= 0x66DC45f3ddF35A53D7821b8B9352efEa345bD82d #verified
+TXL							= 0xb1dB648cf6a225C75EB3630F9aaB966Df5Eb1fdD #verified
+BTC			 				= 0xAF3bDfFF95c4474edD74C6282FBa809E4b7ec527 #verified
+LINK			 			= 0xB1672c7737F70384514e292d4F5d8bA93Fd3b5a9 #verified
+COS			 				=  #verified
+BUNNY			 			=  #verified
+
+
+
+------------------	Liquidity Pools   ---------------------------
+TINK-WETH	 				=  # Pool Id#1
+DAI-USDC LP		 			=  # Pool Id#2
+BUSD-WETH LP				=  # Pool Id#3
+CAKE-WETH LP				=  # Pool Id#4
+ETH-WETH LP					=  # Pool Id#5
+USDC_WETH LP		 		=  # Pool Id#6
+
+
+------------------     Pools		 -----------------------------
+SmartChefFactory	 = 0xEA1fD75B4546F426FcEfa6c1e0541fcA28466ba8
+https://github.com/pancakeswap/pancake-farm/blob/master/test/LotteryPool.test.js
+see following link: https://github.com/pancakeswap/pancake-farm/blob/master/test/BnbStaking.test.js
+
+EthStaking				=
+LotteryRewardPool	 	= 
+WBTC-USDT		 		=  => Pending
+DAI-CAKE	 	 		=  => Pending
+CAKE-USDT		 		=  => Pending
+CAKE-USDT(new)		 	=  => Pending
+SYRUP-TINK		 		=  => Pending
+CAKE-UNI		 		=  => Pending
+
+
+------------------   Farms Contracts    -----------------------------
+see following link: https://github.com/pancakeswap/pancake-farm/blob/master/test/MasterChef.test.js
+MasterChef		 = 0x4Eb588F015B2106a5a588c3f2cE106821275a306 => Working
+sell following link: https://github.com/pancakeswap/pancake-farm/blob/master/test/SousChef.test.js
+SousChef		 = 0x912E93fE67d4d8dfa9346c13570b2dCF403807d9
+EthStaking(UNI-V2/Cake) = 
+CAKE-SYRUP Farm	 = 
+
+------------------   Lottery Contracts  ------------------------------
+Lottery		 		= 0x2EAe8FaeddDb6644d832514D61CD195bB7E5B7C7
+LotteryNFT		 	= 
+
+------------------	Utilities       -------------------------------
+Multicall Address       			= 0x66119B2016FE49Ea55350b070Bb34882c945FE31
+see the following link: https://github.com/pancakeswap/pancake-farm/blob/master/test/Timelock.test.js
+Timelock							= 0x7e5E6686a9852e7923f4fb5479E7AEc48491a2FF
+Timer(lottery)						= 0x35fe99258843585CAa3De1BC31Dbd561255ABBFe
+RandomNumberGenerator(lottery)  	= 
+
+
+
+https://bscscan.com/block/countdown/9950000
+last_block_number + ((future_time - time_now) / block_time)
+
+15174164 + ((1626436313 - 1623844337) / 2.5)
+15174164  + 1036790
+block_height = 16210954
+
+
+
+
+
+
+
+
+
+
+
+

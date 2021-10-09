@@ -1,0 +1,113 @@
+{
+    "name": "Nightmare Token List",
+    "timestamp": "2020-12-18T16:05:23.585Z",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "patch": 13
+    },
+    "tags": {},
+    "logoURI": "ipfs://QmQ9GCVmLQkbPohxKeCYkbpmwfTvHXrY64TmBsPQAZdbqZ",
+    "keywords": [
+      "uniswap",
+      "default"
+    ],
+    "tokens": [
+      {
+        "name": "Uni Token",
+        "address": "0x2f5b2760256bB35F6F8e372252e1a729f62d0FC9",
+        "symbol": "UNI",
+        "decimals": 18,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB6eD7644C69416d67B522e20bC294A9a9B405B31/logo.png"
+      },
+      {
+        "name": "Nightmare Token",
+        "address": "0x28C598877dce5be36e6F5c30D65B6D22371C1ddA",
+        "symbol": "NGT",
+        "decimals": 18,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB6eD7644C69416d67B522e20bC294A9a9B405B31/logo.png"
+      },
+      {
+        "name": "Cake Token",
+        "address": "0x8E38c32F56fDD4cD185BAA7aaaD4FA93EaB4d5Fb",
+        "symbol": "CAKE",
+        "decimals": 18,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB6eD7644C69416d67B522e20bC294A9a9B405B31/logo.png"
+      },
+      {
+        "name": "Tink Token",
+        "address": "0x41E60A5e1263D4f1091D4086a1A13F62a6f055Ee",
+        "symbol": "TINK",
+        "decimals": 18,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png"
+      },
+      {
+        "name": "Tether Token",
+        "address": "0x4f18ffF9dc5a08AA51747b6F656CBD9AC94c0454",
+        "symbol": "USDT",
+        "decimals": 6,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB6eD7644C69416d67B522e20bC294A9a9B405B31/logo.png"
+      },
+      {
+        "name": "BUSD Token",
+        "address": "0xeDc7cCdd2BeDD3DA4245ed77aFc5Db32DBd03F28",
+        "symbol": "BUSD",
+        "decimals": 18,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png"
+      },
+      {
+        "name": "Wrapped Bitcoin",
+        "address": "0xF77bb73e4551d827cc103f834ED045a59Bb39E13",
+        "symbol": "WBTC",
+        "decimals": 18,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png"
+      },
+      {
+        "name": "USDC",
+        "address": "0x7502Add6e64F8c0A6993a3b8a2F08A5f643A6269",
+        "symbol": "USDC",
+        "decimals": 18,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png"
+      },
+      {
+        "name": "DAI",
+        "address": "0x3E9302F8fA4cfFc4E48D9bFF11F224bfC93860b9",
+        "symbol": "DAI",
+        "decimals": 18,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png"
+      },
+      {
+        "name": "Link Token",
+        "address": "0x05c42C15A42Eb51E677aBB0aF85E2F14aC27632C",
+        "symbol": "LINK",
+        "decimals": 18,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png"
+      },
+      {
+        "name": "Wrapped Ethereum",
+        "address": "0x46BCBfF60e6C009CE82CfF6576D946d10C595A4a",
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png"
+      },
+      {
+        "name": "Wrapped Matic",
+        "address": "0x9E4C70a43933141392Aa872249e590828d7BF83A",
+        "symbol": "WMATIC",
+        "decimals": 18,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png"
+      }
+    ]
+  }

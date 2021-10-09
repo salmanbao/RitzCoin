@@ -1,0 +1,15 @@
+{
+  "name": "Matic Chain Blocks",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "Matic Chain Blocks": {
+        "url": "https://api.thegraph.com/subgraphs/name/decentraland/blocks-matic-mumbai",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
